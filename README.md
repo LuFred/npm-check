@@ -1,4 +1,4 @@
-npm-check
+npm-check(依赖升级工具)
 =========
 [![Build Status](https://travis-ci.org/dylang/npm-check.svg?branch=master)](https://travis-ci.org/dylang/npm-check)
 [![NPM version](https://badge.fury.io/js/npm-check.svg)](http://badge.fury.io/js/npm-check)
@@ -11,18 +11,15 @@ npm-check
 
 ### Features
 
-* Tells you what's out of date.
-* Provides a link to the package's documentation so you can decide if you want the update.
-* Kindly informs you if a dependency is not being used in your code.
-* Works on your globally installed packages too, via `-g`.
-* **Interactive Update** for less typing and fewer typos, via `-u`.
-* Supports public and private [@scoped/packages](https://docs.npmjs.com/getting-started/scoped-packages).
-* Supports ES6-style [`import from`](http://exploringjs.com/es6/ch_modules.html) syntax.
-* Upgrades your modules using your installed version of npm, including the new `npm@3`, so dependencies go where you expect them.
-* Works with any public npm registry, [private registries](https://www.npmjs.com/enterprise), and alternate registries like [Sinopia](https://github.com/rlidwka/sinopia).
-* Does not query registries for packages with `private: true` in their package.json.
-* Emoji in a command-line app, because command-line apps can be fun too.
-* Works with `npm@2` and `npm@3`, as well as newer alternative installers like `ied` and `pnpm`.
+* 告诉你哪些依赖已经过时；
+* 在你决定升级的时候，提供依赖包的文档；
+* 提示某个依赖没有被你使用；
+* 支持全局安装的模块，-g；
+* 交互式升级介面，减少输入和输入错误的情况，-u；
+* 支持公共 & 私有依赖包 [@scoped/packages](https://docs.npmjs.com/getting-started/scoped-packages)；
+* 支持 ES6 import from 语法；
+* 支持公共 & 私有 npm 源；
+* 支持 npm@2 和 npm@3；
 
 ### Requirements
 * Node >= 0.11.
